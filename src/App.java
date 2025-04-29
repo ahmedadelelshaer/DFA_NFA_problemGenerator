@@ -5,12 +5,14 @@ import java.io.FileWriter;
 
 import DFA_PROBLEMS.Problem2;
 import DFA_PROBLEMS.Problem3;
+import DFA_PROBLEMS.Problem4;
 import DFA_PROBLEMS.Problem5;
 import DFA_PROBLEMS.Problem6;
 import NFA_PROBLEMS.Problem10;
 import NFA_PROBLEMS.Problem7;
 import DFA_PROBLEMS.Problem1;
 import NFA_PROBLEMS.Problem8;
+import NFA_PROBLEMS.Problem9;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -32,8 +34,9 @@ public class App {
                 case "3":
                     Problem3 p3 = new Problem3(br, bw);
                     break;
-                // case "4":
-                // Problem4 p4 = new Problem4(br, bw);
+                case "4":
+                    Problem4 p4 = new Problem4(br, bw);
+                    break;
                 case "5":
                     Problem5 p5 = new Problem5(br, bw);
                     break;
@@ -45,6 +48,9 @@ public class App {
                     break;
                 case "8":
                     Problem8 p8 = new Problem8(br, bw);
+                    break;
+                case "9":
+                    Problem9 p9 = new Problem9(br, bw);
                     break;
                 case "10":
                     Problem10 p10 = new Problem10(br, bw);
